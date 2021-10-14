@@ -1,4 +1,4 @@
-import { Box, Center, Grid, GridItem, Heading, Link, Text } from '@chakra-ui/react';
+import { Box, Center, Grid, GridItem, Heading, Text } from '@chakra-ui/react';
 import SignUp from './SignUp';
 
 function App() {
