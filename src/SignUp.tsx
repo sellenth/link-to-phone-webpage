@@ -85,7 +85,7 @@ function SignUp() {
         <Center flexDir="column" my="2em">
             <Box position="absolute" visibility={showSignupControls ? 'hidden' : 'visible'}>
                 <Button w="100%" size="lg" p="10px 10%" color="white" backgroundColor="limegreen" onClick={() => {setShowSignupControls(true)}}>Create Account</Button>
-                <Text fontSize="medium"><em>Or click <Link href="https://www.github.com/sellenth/link-to-phone-backend" textDecoration="underline">here</Link> to learn more.</em></Text>
+                <Text fontSize="medium"><em>Or click <Link href="https://www.github.com/sellenth/link-to-phone" textDecoration="underline">here</Link> to learn more.</em></Text>
             </Box>
             <Box visibility={showSignupControls ? 'visible' : 'hidden'} >
                 <InputGroup mb="5px">
