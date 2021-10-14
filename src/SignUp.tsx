@@ -37,7 +37,7 @@ function SignUp() {
         };
         fetch(process.env.NODE_ENV === "development" ?
             'http://localhost:3001/create-user' :
-            'https://www.link-to-phone.com', requestOptions)
+            'https://www.link-to-phone.com/create-user', requestOptions)
             .then(async response => {
                 if (!response.ok) {
                     return Promise.reject();
